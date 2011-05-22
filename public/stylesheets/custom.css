@@ -1,0 +1,268 @@
+/* Links */
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* forms.css */
+
+body {
+	background-color: white;
+}
+
+.container {
+	min-height: 100%;
+}
+
+header {
+	width: 100%;
+	overflow: auto;
+	background-color: #262626;
+}
+
+.top {
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0px 20px;
+	min-width: 850px;
+	max-width: 1000px;
+	position: relative;
+	height: 70px;
+}
+
+footer {
+	width: 100%;
+	overflow: auto;
+	position: relative;
+	background-color: #262626;
+	padding: 5px 0px;
+}
+
+div.site-title {
+	float: left;
+}
+
+a.site-title:link, a.site-title:visited, a.site-title:active, a.site-title:hover {
+	color: white;
+	font-family: "Britannic Bold", "Arial Black";
+	font-size: 350%;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.bar {
+	width: 100%;
+	height: 9px;
+	background-color: #707070;
+}
+
+section {
+  font-size: 100%;
+	padding: 20px 20px 40px 20px;
+	border: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-size: inherit;
+  font-family: inherit;
+	background: #73B9FF;
+}
+
+.content {
+	margin-left: auto;
+	margin-right: auto;
+	min-width: 850px;
+	max-width: 1000px;
+}
+
+section h1 {
+  font-size: 150%;
+	margin-bottom: 10px;
+}
+
+/* Navigation */
+
+nav {
+	white-space: nowrap;
+	position: absolute;
+	bottom: 12px;
+	right: 10px;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 0.2em 0;
+}
+
+nav ul li a {
+	padding: 0 10px;
+	color: white;
+}
+
+nav ul li a:hover {
+	text-decoration: none;
+}
+
+/* Round corners */
+
+.round {
+  -moz-border-radius:    10px;
+  -webkit-border-radius: 10px;
+  border-radius:         10px;
+}
+
+/* Footer */
+
+footer {
+	width: 100%;
+	text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+footer nav {
+	position: static;
+}
+
+/* Error messages */
+
+.field_with_errors {
+  margin-top: 10px;
+  padding: 2px;
+  background-color: red;
+  display: table;
+}
+
+.field_with_errors label {
+  color: #fff;
+}
+
+#error_explanation {
+  width: 400px;
+  border: 2px solid red;
+  padding: 7px;
+  padding-bottom: 12px;
+  margin-bottom: 20px;
+  background-color: #f0f0f0;
+}
+
+#error_explanation h2 {
+  text-align: left;
+  font-weight: bold;
+  padding: 5px 5px 5px 15px;
+  font-size: 12px;
+  margin: -7px;
+  background-color: #c00;
+  color: #fff;
+}
+
+#error_explanation p {
+  color: #333;
+  margin-bottom: 0;
+  padding: 5px;
+}
+
+#error_explanation ul {
+	margin-top: 1em;
+	padding-left: 1.5em;
+}
+
+#error_explanation ul li {
+  font-size: 12px;
+  list-style: square;
+}
+
+.oneliner {
+	font-size: 150%;
+	margin-bottom: 30px;
+}
+
+.featured-people {
+}
+
+.left {
+	float: left;
+	width: 50%;
+}
+
+.city {
+	color: white;
+	font-family: "Arial Black";
+	position: absolute;
+	bottom: 15px;
+	left: 18em;
+}
+
+.featured-pic {
+	background:url('/images/featuredgirl.jpg') no-repeat;
+	height: 580px;
+}
+
+.info {
+	font-size: 120%;
+	position: relative; /* so that divider has appropriate height */
+	width: 370px;
+  -moz-border-radius:    10px;
+  -webkit-border-radius: 10px;
+  border-radius:         10px;
+  padding: 10px;
+  background: #73B9FF;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=95)";
+	filter: alpha(opacity=95);
+	opacity: 0.78;
+	overflow: auto; /*needed so that div stretches with child divs*/
+	left: 35px;
+	top: 50px;
+}
+
+.buttons {
+	margin-top: 20px;
+	position: relative;
+	left: 30px;
+	top: 50px;
+}
+
+.arrow_prompt_left {
+	margin-top: 10px;
+	font-size: 200%;
+	position: relative;
+	left:208px;
+}
+
+.arrow_prompt_right {
+	margin-top: 10px;
+	font-size: 200%;
+	position: relative;
+	left:172px;
+}
+
+.arrow_label {
+	display: inline;
+	position: relative;
+	bottom: 5px;
+}
+
+.name {
+	position: relative;
+	left: 35px;
+	top: 50px;
+	font-size: 500%;
+	font-weight: bold;
+}
+
+.moreinfo {
+	visibility: hidden;
+}
+
+.blurb {
+	
+}

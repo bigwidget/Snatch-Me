@@ -1,0 +1,14 @@
+<% if @user == current_user %>
+<%= link_to("Edit your account", edit_user_registration_path(@user)) %>
+<% end %>
+
+<table>
+	<% @user.profile.attributes.each do |field, value| %>
+	<tr>
+		<td valign=top><%= field %></td>
+		<td><%= value %></td>
+	</tr>
+	<% end %>
+</table>
+
+<%= image_tag @user.profile.picture.url %>
