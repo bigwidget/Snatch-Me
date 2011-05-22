@@ -1,17 +1,6 @@
 Snatchmebeta::Application.routes.draw do
-  get "messages/new"
 
-  get "messages/create"
-
-  devise_for :users
-
-  match '/contact', :to => 'pages#contact'
   match '/girl',   :to => 'pages#about'
-  match '/help',    :to => 'pages#help'
-  
-  resources :users
-
-  match "api/:id" => "users#api"
   
   root :to => "pages#home"
 
