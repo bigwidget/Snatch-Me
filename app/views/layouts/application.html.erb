@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+    <title><%= @title %></title>
+    <%= csrf_meta_tag %>
+    <%= render 'layouts/stylesheets' %>
+	<%= javascript_include_tag :defaults %>
+	</head>
+  <body>
+    <div class="container">
+      <%= render 'layouts/header' %>
+      <section>
+    		<div class="content">
+    		<% flash.each do |key, value| %>
+					<div class="flash <%= key %>"><%= value %></div>
+				<% end %>
+				<%= yield %>
+				</div>
+      </section>
+      <%= render 'layouts/footer' %>
+    </div>
+  </body>
+</html>
